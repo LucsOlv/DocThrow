@@ -26,7 +26,7 @@ func BaseLayout() templ.Component {
 			templ_7745c5c3_Var1 = templ.NopComponent
 		}
 		ctx = templ.ClearChildren(ctx)
-		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<html lang=\"pt-br\"><head><title>Home</title><link href=\"public/assets/css/output.css\" rel=\"stylesheet\"></head><body><h1 class=\"text-lg bg-red-100\">Welcome to the home test</h1></body></html>")
+		_, templ_7745c5c3_Err = templ_7745c5c3_Buffer.WriteString("<html lang=\"pt-br\"><head><title>Home</title><link href=\"public/assets/css/output.css\" rel=\"stylesheet\"></head><body><h1 class=\"text-lg bg-red-200 flex justify-center items-center\">teste12</h1><h1 class=\"text-lg bg-red-200 flex justify-center items-center\">teste</h1><h1 class=\"text-lg bg-red-200 flex justify-center items-center\">teste1</h1></body></html>")
 		if templ_7745c5c3_Err != nil {
 			return templ_7745c5c3_Err
 		}
